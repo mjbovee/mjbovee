@@ -1,0 +1,60 @@
+* {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 500;
+}
+
+html, body {
+	height: 100vh;
+}
+
+#profPic {
+	width: 20%;
+	border-radius: 50%;
+}
+
+.wireframe {
+	width: 50%;
+}
+
+nav {
+	background: slategrey;
+	box-shadow: 0 1px 5px black;
+	opacity: .75;
+}
+
+.collapsing, .show {
+	text-align: right;
+}
+
+
+header {
+	position: relative;
+	width: 100%;
+	min-height: auto;
+	background-image: url(desertsnow.jpg);
+	background-position: center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+}
+
+
+.header-content {
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.contact {
+	height: 80%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.nav-link {
+	scroll-behavior: smooth;
+}
+
