@@ -7,6 +7,10 @@ html, body {
 	height: 100vh;
 }
 
+h2 {
+	font-family: 'Montserrat', sans-serif;
+}
+
 #profPic {
 	width: 20%;
 	border-radius: 50%;
@@ -20,6 +24,10 @@ nav {
 	background: slategrey;
 	box-shadow: 0 1px 5px black;
 	opacity: .75;
+}
+
+.nav-link {
+	scroll-behavior: smooth;
 }
 
 .collapsing, .show {
@@ -39,6 +47,13 @@ header {
 	-o-background-size: cover;
 }
 
+.header-content {
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
 .about {
 	position: relative;
 	width: 100%;
@@ -51,25 +66,23 @@ header {
 	-o-background-size: cover;
 }
 
-.header-content {
-	height: 100%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
 .contact {
 	min-height: 100%;
 	width: 100%;
+	background-color: #EAEAEA;
 
 }
 
-.nav-link {
-	scroll-behavior: smooth;
+.contactItem {
+	width: 85%;
 }
 
 .logo img {
 	width: 50px;
 	margin: 0 10px;
 	padding: 10px 0;
+}
+
+footer {
+	background-color: #ADADAD
 }
