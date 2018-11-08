@@ -1,14 +1,13 @@
-* {
-	font-family: 'Raleway', sans-serif;
-	font-weight: 500;
-}
+
 
 html, body {
 	height: 100vh;
+	font-family: 'Raleway', sans-serif !important;
+
 }
 
-h2 {
-	font-family: 'Montserrat', sans-serif;
+h1, h2 {
+	font-family: 'Roboto Slab', serif !important;
 }
 
 #profPic {
@@ -57,13 +56,21 @@ header {
 .about {
 	position: relative;
 	width: 100%;
-	min-height: auto;
+	min-height: 100%;
 	background-image: linear-gradient(rgba(144, 153, 162, 0.75), rgba(147, 175, 174, 0.75)), url(photos/desertsnow.jpg);
 	background-position: center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
 	-o-background-size: cover;
+	display: flex;
+	align-items: center;
+}
+
+.opaqueBG {
+	background: rgba(234,234,234,0.3);
+	padding: 3% 0;
+	border-radius: 25px;
 }
 
 .contact {
