@@ -93,3 +93,8 @@ header {
 footer {
 	background-color: #ADADAD
 }
+
+.scale {
+	transform: scale(1.2);
+	transition: 1s;
+}
