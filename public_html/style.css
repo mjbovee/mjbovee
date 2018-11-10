@@ -72,7 +72,6 @@ header {
 	min-height: 100%;
 	width: 100%;
 	background-color: #EAEAEA;
-
 }
 
 .contactItem {
@@ -86,7 +85,7 @@ header {
 }
 
 footer {
-	background-color: #ADADAD
+	background-color: #ADADAD;
 }
 
 .scale {
