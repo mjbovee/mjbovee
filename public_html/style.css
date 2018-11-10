@@ -1,14 +1,11 @@
 html, body {
 	height: 100vh;
 	font-family: 'Raleway', sans-serif !important;
-
 }
 
 h1, h2 {
 	font-family: 'Roboto Slab', serif !important;
 }
-
-
 
 nav {
 	background: slategrey;
@@ -24,6 +21,12 @@ nav {
 	text-align: right;
 }
 
+.scrolling-box {
+	height: 100vh;
+	overflow-y: scroll;
+	scroll-behavior: smooth;
+	width: 100%;
+}
 
 header {
 	position: relative;
