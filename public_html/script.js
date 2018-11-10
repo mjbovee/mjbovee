@@ -1,9 +1,8 @@
 window.onload = function(){
-	scaleHeader()
+	scaleThings()
 };
 
-function scaleHeader() {
-	let michael = document.querySelector("#scaleHead");
-	michael.classList.toggle('scale');
-	console.log('hi')
+function scaleThings() {
+	let scale = document.querySelector("#scale");
+	scale.classList.toggle('scale');
 }
