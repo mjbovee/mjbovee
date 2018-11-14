@@ -48,6 +48,50 @@ header {
 	align-items: center;
 }
 
+.projects {
+	width: 100%;
+	min-height: 100vh;
+	background-color: #EAEAEA;
+}
+
+.samples{
+	display: flex;
+	justify-content: space-around;
+}
+
+.sample1 {
+	background-image: url("photos/marathonThumbnail.png");
+}
+
+.sample2 {
+	background-image: url("photos/sandias.jpg");
+}
+
+.sample3 {
+	background-image: url("photos/bisti.jpg");
+}
+
+.samples a{
+	font-size: 2rem;
+	height: 50vh;
+	background-position: center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: white;
+	border-radius: 5%;
+	transition: .3s linear;
+	box-shadow: 1px 2px 5px black;
+}
+
+.samples a:hover {
+	transform: scale(1.1);
+}
+
 .about {
 	position: relative;
 	width: 100%;
@@ -82,6 +126,11 @@ header {
 	width: 50px;
 	margin: 0 10px;
 	padding: 10px 0;
+	transition: .3s;
+}
+
+.logo img:hover {
+	transform: scale(1.15);
 }
 
 footer {
