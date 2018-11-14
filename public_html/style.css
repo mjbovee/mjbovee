@@ -7,6 +7,15 @@ h1, h2 {
 	font-family: 'Roboto Slab', serif !important;
 }
 
+h1 {
+	font-size: 5rem !important;
+}
+
+.home {
+	text-shadow:1px 1px black;
+	font-size: 5rem !important;
+}
+
 nav {
 	background: slategrey;
 	box-shadow: 0 1px 5px black;
@@ -73,6 +82,7 @@ header {
 
 .samples a{
 	font-size: 2rem;
+	text-shadow:1px 1px black;
 	height: 50vh;
 	background-position: center;
 	-webkit-background-size: cover;
@@ -83,13 +93,21 @@ header {
 	align-items: center;
 	justify-content: center;
 	color: white;
-	border-radius: 5%;
+	border-radius: 5px;
 	transition: .3s linear;
 	box-shadow: 1px 2px 5px black;
 }
 
 .samples a:hover {
-	transform: scale(1.1);
+	transform: scale(1.05);
+	text-shadow: none;
+	text-decoration: none;
+}
+
+.samples p {
+	padding: .5rem;
+	background-color: rgba(234, 234, 234, 0.5);
+	border-radius: 15px;
 }
 
 .about {
@@ -107,7 +125,7 @@ header {
 }
 
 .opaqueBG {
-	background: rgba(234,234,234,0.3);
+	background: rgba(234, 234, 234, 0.3);
 	padding: 3% 0;
 	border-radius: 25px;
 }
@@ -138,6 +156,6 @@ footer {
 }
 
 .scale {
-	transform: scale(1.1);
-	transition: .6s;
+	transform: scale(.75);
+	transition: 1s;
 }
