@@ -7,13 +7,13 @@ window.onload = function(){
 };
 
 function scaleThings() {
-	let scale = document.querySelector("#scale");
+	let scale = document.querySelector('#scale');
 	scale.classList.toggle('scale');
 }
 
 function handleSubmit() {
-	let submitPara = document.createElement("p");
-	let paraExist = form.querySelector("p");
+	let submitPara = document.createElement('p');
+	let paraExist = form.querySelector('p');
 	if (!paraExist) {
 		submitPara.innerText = "Message sent! I'll get back to you shortly.";
 		form.appendChild(submitPara);
