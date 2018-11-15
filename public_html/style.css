@@ -1,5 +1,4 @@
 html, body {
-	height: 100vh;
 	font-family: 'Raleway', sans-serif !important;
 }
 
@@ -84,6 +83,7 @@ header {
 	font-size: 2rem;
 	text-shadow:1px 1px black;
 	height: 50vh;
+	width: auto;
 	background-position: center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -140,6 +140,18 @@ header {
 	width: 85%;
 }
 
+/*.slide-in-left{
+	transform: translateX(-50%) scale(0.95);
+}
+
+.slide-in-right{
+	transform: translateX(50%) scale(0.95);
+}
+
+.slide-in.active{
+	transform: translateX(0) scale(1);
+}
+*/
 .logo img {
 	width: 50px;
 	margin: 0 10px;
@@ -153,9 +165,14 @@ header {
 
 footer {
 	background-color: #ADADAD;
+	overflow-x: hidden;
 }
 
 .scale {
 	transform: scale(.75);
 	transition: 1s;
+	-webkit-transition-timing-function: ease-in-out;
+	-moz-transition-timing-function: ease-in-out;
+	-o-transition-timing-function: ease-in-out;
+	transition-timing-function: ease-in-out;
 }
