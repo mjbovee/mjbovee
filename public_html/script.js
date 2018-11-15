@@ -1,8 +1,6 @@
 const slide = document.querySelectorAll('.slide-in');
-const scrollingBox = document.querySelector('.scrolling-box');
 const form = document.querySelector('form');
-const contact = document.querySelector('.contact');
-const footer = document.querySelector('footer');
+const foot = document.querySelector('footer');
 
 window.onload = function(){
 	scaleThings();
@@ -24,8 +22,10 @@ function handleSubmit() {
 
 function checkSlide(o) {
 	slide.forEach(slideBlock => {
-		if(o.scrollTop >= ((o.scrollHeight) - (1.95 * o.offsetHeight))) {
+		if(o.scrollTop + foot.scrollHeight >= ((o.scrollHeight) - (2 * o.offsetHeight))) {
 			slideBlock.classList.add("active");
+		} else if(o.scrollTop + foot.scrollHeight <= ((o.scrollHeight) - (2 * o.offsetHeight))) {
+			slideBlock.classList.remove("active");
 		}
 	})
 }

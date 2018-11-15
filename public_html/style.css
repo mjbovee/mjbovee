@@ -142,15 +142,17 @@ header {
 
 .slide-in-left{
 	transform: translateX(-50%) scale(0.95);
+	transition: 1s;
 }
 
 .slide-in-right{
 	transform: translateX(50%) scale(0.95);
+	transition: 1s;
 }
 
 .slide-in.active{
 	transform: translateX(0) scale(1);
-	transition: 2s;
+	transition: 1s;
 }
 
 .logo img {
