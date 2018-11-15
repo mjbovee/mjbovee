@@ -21,9 +21,6 @@ nav {
 	opacity: .75;
 }
 
-.nav-link {
-	scroll-behavior: smooth;
-}
 
 .collapsing, .show {
 	text-align: right;
@@ -31,7 +28,6 @@ nav {
 
 .scrolling-box {
 	height: 100vh;
-	overflow-y: scroll;
 	overflow-x: hidden;
 	scroll-behavior: smooth;
 	width: 100vw;
@@ -140,7 +136,11 @@ header {
 	width: 85%;
 }
 
-/*.slide-in-left{
+.contact p {
+	padding: 1em;
+}
+
+.slide-in-left{
 	transform: translateX(-50%) scale(0.95);
 }
 
@@ -150,8 +150,9 @@ header {
 
 .slide-in.active{
 	transform: translateX(0) scale(1);
+	transition: 2s;
 }
-*/
+
 .logo img {
 	width: 50px;
 	margin: 0 10px;
