@@ -37,8 +37,7 @@ header {
 	position: relative;
 	width: 100%;
 	min-height: 100vh;
-	background-image: linear-gradient(rgba(150, 133, 143, 0.75), rgba(111, 121, 147, 0.75)), url(photos/rmnp.jpg);
-	background-position: center;
+	background: linear-gradient(rgba(150, 133, 143, 0.75), rgba(111, 121, 147, 0.75)), url(photos/rmnp.jpg) center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
@@ -64,15 +63,15 @@ header {
 }
 
 .sample1 {
-	background-image: url("photos/marathonThumbnail.png");
+	background-image: url("photos/runners.jpeg");
 }
 
 .sample2 {
-	background-image: url("photos/sandias.jpg");
+	background-image:  url("photos/sandias.jpg");
 }
 
 .sample3 {
-	background-image: url("photos/bisti.jpg");
+	background-image: url("photos/bootstrapThumbnail.png");
 }
 
 .samples a{
@@ -102,7 +101,7 @@ header {
 
 .samples p {
 	padding: .5rem;
-	background-color: rgba(234, 234, 234, 0.5);
+	background-color: rgba(173, 173, 173, 0.7);
 	border-radius: 15px;
 }
 
@@ -110,8 +109,7 @@ header {
 	position: relative;
 	width: 100%;
 	min-height: 100%;
-	background-image: linear-gradient(rgba(144, 153, 162, 0.75), rgba(147, 175, 174, 0.75)), url(photos/desertsnow.jpg);
-	background-position: center;
+	background: linear-gradient(rgba(144, 153, 162, 0.75), rgba(147, 175, 174, 0.75)), url("photos/desertsnow.jpg") center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
