@@ -17,7 +17,7 @@ require_once(dirname(__DIR__, 2) . "/vendor/autoload.php");
 require_once ("mail-config.php");
 
 // verify users' reCAPTCHA input
-$recaptcha - new \ReCaptcha\ReCaptcha($secret);
+$recaptcha = new \ReCaptcha\ReCaptcha($secret);
 $resp = $recaptcha->verify($_POST["g-recaptcha-response"], $_SERVER["REMOTE_ADDR"]);
 
 try {
