@@ -30,7 +30,7 @@
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/additional-methods.min.js"></script>
 
 		<!-- JavaScript Form Validator -->
-		<script src="js/form-validate.js"></script>
+		<script src="scripts/jquery-validate.js"></script>
 
 		<!-- Google reCAPTCHA -->
 		<script src='https://www.google.com/recaptcha/api.js'></script>
@@ -107,7 +107,7 @@
 							<h2 class="px-md-5">Get in touch</h2>
 							<h4 class="px-md-5">Interested in working together? Let's talk about it</h4>
 						</div>
-						<form class="col-md-5 offset-md-1 p-md-3 text-center slide-in slide-in-right" id="contactForm">
+						<form class="col-md-5 offset-md-1 p-md-3 text-center slide-in slide-in-right" id="contactForm" action="php/mailer.php" method="post">
 							<div class="p-2">
 								<input class="contactItem" type="text" id="name" name="contact_name" placeholder="Your name">
 							</div>

@@ -46,4 +46,4 @@ function debounce(func, wait = 20, immediate = true) {
 	}
 }
 
-form.addEventListener('submit', handleSubmit);
+//form.addEventListener('submit', handleSubmit);
