@@ -19,11 +19,22 @@
 		<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 
-		<!-- Optional JavaScript -->
 		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
 		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+		<!-- jQuery Form, Additional Methods, Validate -->
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/additional-methods.min.js"></script>
+
+		<!-- JavaScript Form Validator -->
+		<script src="js/form-validate.js"></script>
+
+		<!-- Google reCAPTCHA -->
+		<script src='https://www.google.com/recaptcha/api.js'></script>
+
 		<!-- Custom JS -->
 		<script async src="script.js"></script>
 	</head>
@@ -81,7 +92,7 @@
 			</section>
 
 			<section class="about" id="about">
-				<div class="opaqueBG text-dark text-center m-5" id="">
+				<div class="opaqueBG text-dark text-center m-5" id="abouttext" aria-label="background image of desert">
 					<h2 class="pb-3">About</h2>
 					<p class="mx-2 mx-md-5 px-md-5">Hey everyone! I'm Michael Bovee - I'm a fullstack web developer and designer based in Albuquerque, New Mexico. I work freelance at the moment, but am actively pursuing full-time employment with an organization that is able to provide me with meaningful work. I'm passionate about sustainable development, utilizing technology in a manner that contributes to the greater good, and helping cultivate growth in my local community. Some of my interests include creating things, increasing my understanding of systems, and problem-solving.</p>
 					<p class="mx-2 mx-md-5 px-md-5">I'm proficient in a number of languages and frameworks, including Bash, Git, HTML, SQL, CSS, SASS, Bootstrap, JavaScript, jQuery, node.js, Angular, PHP, and Python. I also have a background in philosophy, which helped me cultivate solid critical thinking and reasoning skills. Programming aside, I love learning, reading, running, spending time outside, and playing chess.</p>
@@ -134,3 +145,13 @@
 
 	</body>
 </html>
+
+<?php
+/**
+ * require all composer dependencies
+ */
+require_once(dirname(__DIR__, 2) . "/vendor/autoload.php");
+
+try {
+	// sanitize everything from the form
+}
