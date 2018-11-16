@@ -1,6 +1,7 @@
 const slide = document.querySelectorAll('.slide-in');
 const form = document.querySelector('form');
 const foot = document.querySelector('footer');
+const output = document.querySelector('#outputArea');
 
 window.onload = function(){
 	scaleThings();
@@ -11,14 +12,14 @@ function scaleThings() {
 	scale.classList.toggle('scale');
 }
 
-function handleSubmit() {
+/*function handleSubmit() {
 	let submitPara = document.createElement('p');
 	let paraExist = form.querySelector('p');
 	if (!paraExist) {
-		submitPara.innerText = "Message sent! I'll get back to you shortly.";
+		output.innerText = "Message sent! I'll get back to you shortly.";
 		form.appendChild(submitPara);
 	}
-}
+}*/
 
 function checkSlide(o) {
 	slide.forEach(slideBlock => {

@@ -56,6 +56,8 @@ try {
 	if($numSent !== count($recipients)) {
 		throw(new RuntimeException("unable to send email"));
 	}
+	echo "<div class=\"alert alert-success\" role=\"alert\">Message sent! I'll get back to you shortly.</div>";
+
 } catch(Exception $exception) {
-	echo "<div>Unable to send message: " . $exception->getMessage() . "</div>";
+	echo "<div class=\"alert alert-danger\" role=\"alert\">Unable to send message: " . $exception->getMessage() . "</div>";
 }

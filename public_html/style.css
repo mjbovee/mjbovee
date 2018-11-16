@@ -134,9 +134,6 @@ header {
 	width: 85%;
 }
 
-.contact p {
-	padding: 1em;
-}
 
 .slide-in-left{
 	transform: translateX(-50%) scale(0.95);
