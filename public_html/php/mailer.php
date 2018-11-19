@@ -30,9 +30,9 @@ try {
 	/**
 	 * sanitize inputs from form: name, email, and message
 	 */
-	$name = filter_input(INPUT_POST, "name", FILTER_SANITIZE_STRING, FILTER_FLAG_NO_ENCODE_QUOTES);
-	$email = filter_input(INPUT_POST, "email", FILTER_VALIDATE_EMAIL, FILTER_VALIDATE_EMAIL);
-	$message = filter_input(INPUT_POST, "message", FILTER_SANITIZE_STRING, FILTER_FLAG_NO_ENCODE_QUOTES);
+	$name = filter_input(INPUT_POST, "contact_name", FILTER_SANITIZE_STRING, FILTER_FLAG_NO_ENCODE_QUOTES);
+	$email = filter_input(INPUT_POST, "contact_email", FILTER_SANITIZE_EMAIL);
+	$message = filter_input(INPUT_POST, "contact_message", FILTER_SANITIZE_STRING, FILTER_FLAG_NO_ENCODE_QUOTES);
 
 	// create swift message
 	$swiftMessage = new Swift_Message();
