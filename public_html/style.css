@@ -63,19 +63,23 @@ header {
 }
 
 .sample1 {
-	background-image: linear-gradient(rgba(150, 133, 143, 0.25), rgba(150, 133, 143, 0.75)), url("photos/runners.jpeg");
+	background-image: url("photos/runners.jpeg");
 }
 
 .sample2 {
-	background-image: linear-gradient(rgba(111, 121, 147, 0.25), rgba(111, 121, 147, 0.75)), url("photos/sandias.jpg");
+	background-image: url("photos/sandias.jpg");
 }
 
 .sample3 {
-	background-image: linear-gradient(rgba(139, 175, 174, 0.25), rgba(139, 175, 174, 0.75)), url("photos/bootstrapThumbnail.png");
+	background-image: url("photos/bootstrapThumbnail.png");
+}
+
+.sample4 {
+	background-image: url("photos/chess.jpeg");
 }
 
 .samples a{
-	font-size: 2rem;
+	font-size: 2.5rem;
 	text-shadow:1px 1px black;
 	height: 50vh;
 	width: auto;
@@ -88,20 +92,19 @@ header {
 	align-items: center;
 	justify-content: center;
 	color: white;
-	border-radius: 5px;
+	border-radius: 25px;
 	transition: .3s linear;
 	box-shadow: 1px 2px 5px black;
 }
 
 .samples a:hover {
 	transform: scale(1.05);
-	text-shadow: none;
-	text-decoration: none;
+	color: white;
 }
 
 .samples p {
 	padding: .5rem;
-	background-color: rgba(234, 234, 234, 0.5);
+	background: linear-gradient(127deg, rgba(111, 121, 147, 0.7), rgba(147, 175, 174, 0.7) 70.71%);
 	border-radius: 15px;
 }
 
