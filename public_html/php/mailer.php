@@ -9,6 +9,7 @@
 /**
  * This file handles secure mail transport using the Swiftmailer library with Google reCAPTCHA integration
  */
+ini_set('display_errors', 1);
 
 // require composer dependencies
 require_once(dirname(__DIR__, 2) . "/vendor/autoload.php");
@@ -48,7 +49,9 @@ try {
 	$swiftMessage->addPart(html_entity_decode($message), "text/plain");
 
 	// send the email via SMTP. the SMPT server here is configure to relay everything upstream via localhost
-	$smtp = new Swift_SmtpTransport("localhost", 25);
+	$smtp = (new Swift_SmtpTransport("smtp.sendgrid.net", 587, "tls"))
+		->setUsername($smtpUser)
+		->setPassword($smtpSecret);
 	$mailer = new Swift_Mailer($smtp);
 	$numSent = $mailer->send($swiftMessage, $failedRecipients);
 

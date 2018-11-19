@@ -1,7 +1,7 @@
 const slide = document.querySelectorAll('.slide-in');
-const form = document.querySelector('form');
 const foot = document.querySelector('footer');
-const output = document.querySelector('#outputArea');
+//const form = document.querySelector('form');
+//const output = document.querySelector('#outputArea');
 
 window.onload = function(){
 	scaleThings();
