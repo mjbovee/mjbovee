@@ -152,14 +152,13 @@ header {
 
 .recaptcha {
 	display: flex;
-	justify-content: center;
-	padding: .5rem;
+	justify-content: center ;
+	align-items: center;
 }
 
 .outputArea {
 	width: 85%;
-	margin: .5rem;
-	margin: auto;
+	margin: .5rem auto;
 }
 
 .logo img {
