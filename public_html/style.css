@@ -156,6 +156,12 @@ header {
 	padding: .5rem;
 }
 
+.outputArea {
+	width: 85%;
+	margin: .5rem;
+	margin: auto;
+}
+
 .logo img {
 	width: 50px;
 	margin: 0 10px;

@@ -1,7 +1,5 @@
 const slide = document.querySelectorAll('.slide-in');
 const foot = document.querySelector('footer');
-//const form = document.querySelector('form');
-//const output = document.querySelector('#outputArea');
 
 window.onload = function(){
 	scaleThings();
@@ -12,23 +10,24 @@ function scaleThings() {
 	scale.classList.toggle('scale');
 }
 
-/*function handleSubmit() {
-	let submitPara = document.createElement('p');
-	let paraExist = form.querySelector('p');
-	if (!paraExist) {
-		output.innerText = "Message sent! I'll get back to you shortly.";
-		form.appendChild(submitPara);
-	}
-}*/
-
 function checkSlide(o) {
-	slide.forEach(slideBlock => {
-		if(o.scrollTop + foot.scrollHeight >= ((o.scrollHeight) - (2 * o.offsetHeight))) {
-			slideBlock.classList.add("active");
-		} else if(o.scrollTop + foot.scrollHeight <= ((o.scrollHeight) - (2 * o.offsetHeight))) {
-			slideBlock.classList.remove("active");
-		}
-	})
+	if(window.innerWidth >= 500) {
+		slide.forEach(slideBlock => {
+			if(o.scrollTop + foot.scrollHeight >= ((o.scrollHeight) - (1.95 * o.offsetHeight))) {
+				slideBlock.classList.add("active");
+			} else if(o.scrollTop + foot.scrollHeight <= ((o.scrollHeight) - (1.95 * o.offsetHeight))) {
+				slideBlock.classList.remove("active");
+			}
+		})
+	} else {
+		slide.forEach(slideBlock => {
+			if(o.scrollTop + foot.scrollHeight >= ((o.scrollHeight) - (2.5 * o.offsetHeight))) {
+				slideBlock.classList.add("active");
+			} else if(o.scrollTop + foot.scrollHeight <= ((o.scrollHeight) - (2.5 * o.offsetHeight))) {
+				slideBlock.classList.remove("active");
+			}
+		})
+	}
 }
 
 function debounce(func, wait = 20, immediate = true) {
@@ -45,5 +44,3 @@ function debounce(func, wait = 20, immediate = true) {
 		if (callNow) func.apply(context, args);
 	}
 }
-
-//form.addEventListener('submit', handleSubmit);
