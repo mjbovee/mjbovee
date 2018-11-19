@@ -150,6 +150,12 @@ header {
 	transition: 1s;
 }
 
+.recaptcha {
+	display: flex;
+	justify-content: center;
+	padding: .5rem;
+}
+
 .logo img {
 	width: 50px;
 	margin: 0 10px;
