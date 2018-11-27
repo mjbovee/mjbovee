@@ -6,6 +6,10 @@ h1, h2 {
 	font-family: 'Roboto Slab', serif !important;
 }
 
+.navbar-brand {
+	font-family: "Droid Sans Mono", monospace !important;
+}
+
 h1 {
 	font-size: 5rem !important;
 }
