@@ -15,11 +15,11 @@ RUN apt-get install -y php \
 
 RUN cd /tmp && curl -sS https://getcomposer.org/installer | php && mv composer.phar /usr/local/bin/composer
 
-COPY ./public_html/ var/www/html/
+COPY . var/www/html/
 
 CMD /usr/sbin/apache2ctl -D FOREGROUND
 
-# WORKDIR /var/www/html
+WORKDIR /var/www/html
 
 RUN rm /var/www/html/index.html
 

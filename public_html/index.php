@@ -82,14 +82,14 @@
 						<a class="col-md-4 m-2 m-md-5 sample1" href="https://bootcamp-coders.cnm.edu/~mbovee/marathon-predictor/" target="_blank">
 							<p>Marathon Time Predictor</p>
 						</a>
-						<a class="col-md-4 m-3 m-md-5 sample2" href="https://bootcamp-coders.cnm.edu/~mbovee/" target="_blank">
-							<p>Placeholder Project</p>
+						<a class="col-md-4 m-2 m-md-5 sample2" href="https://github.com/mjbovee/data-design" target="_blank">
+							<p>Data Design</p>
 						</a>
 						<a class="col-md-4 m-2 m-md-5 sample3" href="https://bootcamp-coders.cnm.edu/~mbovee/bootstrap-challenge" target="_blank">
 							<p>Bootstrap Challenge</p>
 						</a>
-						<a class="col-md-4 m-2 m-md-5 sample4" href="https://bootcamp-coders.cnm.edu/~mbovee/bootstrap-challenge" target="_blank">
-							<p>Another Placeholder</p>
+						<a class="col-md-4 m-3 m-md-5 sample4" href="https://github.com/Family-Connect/family-connect" target="_blank">
+							<p>Family Connect</p>
 						</a>
 					</div>
 				</div>
