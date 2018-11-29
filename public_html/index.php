@@ -41,8 +41,8 @@
 	</head>
 	<body>
 		<nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
-			<a class="navbar-brand" href="#">MJB_</a>
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent">
+			<a class="navbar-brand" href="#">mjb_</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" name="navbar-button">
 				<span class="navbar-toggler-icon"></span>
 			</button>
 
@@ -133,20 +133,20 @@
 				</div>
 				<div class="text-center row justify-content-center mt-md-5 pb-5">
 					<div class="logo mx-md-5">
-						<a href="https://github.com/mjbovee" target="_blank"><img src="photos/GitHub-Mark-120px-plus.png"/></a>
+						<a href="https://github.com/mjbovee" target="_blank"><img src="photos/GitHub-Mark-120px-plus.png" alt="github-link"/></a>
 					</div>
 					<div class="logo mx-md-5">
-						<a href="https://www.linkedin.com/in/michaeljbovee/" target="_blank"><img src="photos/In-Black-121px-R.png"/></a>
+						<a href="https://www.linkedin.com/in/michaeljbovee/" target="_blank"><img src="photos/In-Black-121px-R.png" alt="linkedIn-link"/></a>
 					</div>
 					<div class="logo mx-md-5">
-						<a href="https://codepen.io/mjbovee/" target="_blank"><img src="photos/Button-Fill-Black-Large.png"/></a>
+						<a href="https://codepen.io/mjbovee/" target="_blank"><img src="photos/Button-Fill-Black-Large.png" alt="codepen-link"/></a>
 					</div>
 				</div>
 			</section>
 
 			<footer class="container container-fluid col-12">
 				<div class="text-light text-center p-3 pt-md-5">
-					<p>Created by Michael Bovee in the Land of Enchantment. Typefaces used are Raleway and Roboto Slab. Most photos were taken by me, just ask if you want to use them.</p>
+					<p>Created by Michael Bovee in the Land of Enchantment. Typefaces used are Raleway and Roboto Slab. Background photos were taken by me, just ask if you want to use them.</p>
 				</div>
 			</footer>
 		</div>
