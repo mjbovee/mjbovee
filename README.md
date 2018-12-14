@@ -18,8 +18,8 @@ The "About" section can be a little hard to read since there is a low contrast o
 
 Your Milestone 3 passes at a Tier IV.
 
-Milestone 1 30(0.2) = 8\
-Milestone 2a 30(0.2) = 8\
-Milestone 2b 30(0.1) = 4\
+Milestone 1 40(0.2) = 8\
+Milestone 2a 40(0.2) = 8\
+Milestone 2b 40(0.1) = 4\
 Milestone 3 40(0.5) = 20\
 Final 40/40
